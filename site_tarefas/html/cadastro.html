@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./../style/estilo.css">
+    <script src = "./../js/cadastro.js"> </script>
+    <title> Cadastrar tarefas </title>
+</head>
+<body>
+
+    <div id = "dv">  </div>
+    <div id = "menu"> 
+       <ul> 
+
+           <li> <a href = "cadastro.html">  Gerenciar minhas tarefas  </a> </li>
+
+           <li> <a href = "inicial.html"> Home </a> </li>
+
+           <li> <a href = "sobre.html"> Sobre </a> </li>
+
+       </ul>
+    </div>
+    <br/>
+    <p> Efetue o cadastro de uma atividade/tarefa na sessão abaixo: </p>
+
+    <div id = "div1"> 
+    <input type = "text" id = "ipt1" placeholder = "       digite uma tarefa">  </input>
+
+    <button id = "bt" onclick = "add();"> Enviar </button>
+    </div>
+    <br/>
+    <br/>
+    <button id = "removedor" onclick = "remover();"> Restaurar agenda </button>
+    <div id = "atvs"> 
+        
+    </div>
+
+    
+</body>
+</html>
